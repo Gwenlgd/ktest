@@ -1,13 +1,13 @@
 nav {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: flex-start;
   padding: 0px;
   gap: 30px;
-
+  top: 50px
   width: 172px;
-  height: 301px;
+
 }
 
 .modeles-entreprise, .modeles-komin, .modeles-display {
@@ -20,7 +20,11 @@ nav {
   background: var(--clr-white);
   border-color: #667085;
   border-radius: 4px;
-  padding: 5px;
+  /* padding: 5px; */
+
+  padding: 3px 7px;
+  width: 100%;
+
 }
 
 .modeles-entreprise h3, .modeles-komin h3 {
