@@ -11,7 +11,8 @@ nav {
 }
 
 .modeles-entreprise, .modeles-komin, .modeles-display {
-  gap: 5px;
+  display: grid;
+  gap: 10px;
 
 }
 
@@ -19,11 +20,13 @@ nav {
   background: var(--clr-white);
   border-color: #667085;
   border-radius: 4px;
+  padding: 5px;
 }
 
 .modeles-entreprise h3, .modeles-komin h3 {
   font-size: 12px;
   color: var(--clr-grey);
+  margin-bottom: 5px;
 }
 
 
@@ -32,12 +35,9 @@ nav li {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 5px;
   gap: 5px;
-
   width: 172px;
   height: 29px;
-
   border-radius: 4px;
 
 }

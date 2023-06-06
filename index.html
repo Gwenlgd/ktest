@@ -8,8 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Add icon library -->
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
@@ -78,13 +78,13 @@
     <div class="cards-cont">
       <div class="display-cards">
         <h2>Tous les modèles</h2>
-        <button> <i class="fa-solid fa-plus"></i> <p> Partir d'une page blanche</p></button>
+        <button onclick="addPlaybook"> <i class="fa-solid fa-plus"></i> <p> Partir d'une page blanche</p></button>
       </div>
 
       <!-- CARDS -->
       <div class="cards-show">
 
-        <div class="card">
+        <div id="card" class="card">
           <div class="card-img">
             <img src="images/Hands001.png" alt="">
             <div class="card-descr">
