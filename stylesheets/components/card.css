@@ -1,7 +1,7 @@
 .cards-cont {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   padding: 0px;
   gap: 20px;
   flex: none;
@@ -10,22 +10,21 @@
 }
 
 .display-cards {
-  /* Auto layout */
   background: transparent;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   padding: 0px;
   gap: 20px;
   height: 40px;
-
 }
 
 .display-cards button {
   background: var(--clr-blue);
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   padding: 11px 12px;
   gap: 4px;
@@ -39,10 +38,15 @@ button p {
   color: var(--clr-white);
 }
 
+.fa-solid {
+  color: var(--clr-white);
+  font-size: 18px;
+  margin-right: 5px;
+}
+
 button:hover {
   background: var(--clr-blue-hoover);
   transition: 0.6s;
-
 }
 
 
@@ -58,9 +62,6 @@ button:hover {
 
   /* width: 1208px;
   height: 793px; */
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
