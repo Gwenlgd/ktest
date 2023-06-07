@@ -1,5 +1,4 @@
 .cards-cont {
-  display: flex;
   flex-direction: column;
   padding: 0px;
   gap: 20px;
@@ -51,7 +50,6 @@
 }
 
 .card {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 12px;
@@ -70,7 +68,6 @@
 
 .card-img {
   position: relative;
-  display: flex;
   flex: none;
   width: 275px;
   height: 137px;
@@ -92,7 +89,6 @@
   opacity: 0;
   transition: 1s;
   position: absolute;
-  display: flex;
   align-items: center;
   justify-content: center;
   width: 275px;
@@ -121,7 +117,6 @@
 }
 
 .card-details {
-  display: flex;
   align-items: center;
   justify-content: flex-start;
   padding: 0px;

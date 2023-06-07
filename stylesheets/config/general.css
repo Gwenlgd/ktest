@@ -3,11 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Manrope', sans-serif;
-
 }
 
 header {
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -21,10 +19,8 @@ body {
 }
 
 main {
-  display: flex;
   flex-direction: row;
   justify-content: center;
-  /* align-items: center; */
   padding: 20px;
   gap: 30px;
   position: absolute;
@@ -44,4 +40,18 @@ li, a, ul {
 
 h3 {
   font-weight: 500;
+}
+
+header, main, nav, nav li,
+.p-number,
+.display-cards ,
+.display-cards button,
+.cards-cont,
+.card,
+.card-img,
+.card-descr,
+.card-descr p,
+.card-details
+ {
+  display: flex;
 }
