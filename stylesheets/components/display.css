@@ -8,6 +8,10 @@
   padding: 0px;
   gap: 20px;
   height: 40px;
+
+  /* @media (min-width: 1290px) and (max-width: 1550px) {
+    width: 90%;
+  } */
 }
 
 .display-cards h2 {

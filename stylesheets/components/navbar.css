@@ -4,22 +4,25 @@ nav {
   align-items: flex-start;
   padding: 0px;
   gap: 30px;
-  top: 50px
+  top: 50px;
   width: 172px;
+
+  @media (max-width: 1190px) {
+    display: none;
+  }
 }
+
+
 
 .modeles-entreprise, .modeles-komin, .modeles-display {
   display: grid;
   gap: 8px;
-
 }
 
 .modeles-display {
   background: var(--clr-white);
-  /* border: solid 0.2px #caccce; */
   border-radius: 4px;
-  padding: 3px 7px;
-  width: 100%;
+  padding: 3px 4px;
 }
 
 .modeles-entreprise h3, .modeles-komin h3 {
