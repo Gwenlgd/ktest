@@ -35,6 +35,10 @@ main {
   padding-right: clamp(1rem, 1.5vw, 6rem);
   left: 0px;
   top: 110px;
+
+  /* @media (min-width: 1290px) and (max-width: 1550px) {
+  } */
+
 }
 
 li, a, ul {
